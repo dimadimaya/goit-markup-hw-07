@@ -1,0 +1,39 @@
+.feature {
+  padding-top: 94px;
+}
+.feature__cardset {
+  display: flex;
+  justify-content: space-between;
+}
+.feature__card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  width: 270px;
+  height: 120px;
+  background-position: center;
+  margin-bottom: 30px;
+}
+.feature__list {
+  display: flex;
+  justify-content: space-between;
+}
+.feature__item {
+  width: 270px;
+}
+.feature__title {
+  color: $primary-text-color;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  margin-bottom: 10px;
+}
+.feature__subtitle {
+  font-size: 14px;
+  line-height: 1.71;
+}

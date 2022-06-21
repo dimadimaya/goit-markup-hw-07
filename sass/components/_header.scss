@@ -1,0 +1,103 @@
+header {
+  font-family: $fontmain;
+  align-items: center;
+  background-color: $white-color;
+  border-bottom: 1px solid #ececec;
+}
+.header {
+  font-family: $fontmain;
+  display: flex;
+  align-items: center;
+
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.nav {
+  display: flex;
+  align-items: center;
+}
+.nav__logo {
+  color: $accent-color;
+  font-family: $fontlogo;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+
+  margin-right: 93px;
+
+  display: flex;
+}
+.nav__logo-second-color {
+  color: #000;
+}
+.site-nav {
+  display: flex;
+}
+.site-nav .site-nav__item + .site-nav__item {
+  margin-left: 30px;
+}
+.site-nav__link {
+  color: $primary-text-color;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover {
+    color: $accent-color;
+  }
+}
+
+.site-nav__current {
+  display: inline-block;
+  position: relative;
+  &::after {
+    display: inline-block;
+    content: "";
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: -33px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: $accent-color;
+  }
+}
+
+.nav-contact {
+  display: flex;
+
+  margin-left: auto;
+}
+
+.nav-contact .nav-contact__item + .nav-contact__item {
+  margin-left: 50px;
+}
+
+.nav-contact__link {
+  display: flex;
+  align-items: center;
+  color: $secondary-text-color;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover {
+    color: $accent-color;
+  }
+}
+.nav-contact__icon-mail {
+  fill: currentColor;
+  margin-right: 10px;
+}
+.nav-contact__icon-tel {
+  fill: currentColor;
+  margin-right: 10px;
+}

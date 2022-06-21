@@ -1,0 +1,63 @@
+body {
+  color: $primary-text-color;
+  font-family: $fontmain;
+  letter-spacing: 0.03em;
+}
+
+img {
+  display: block;
+}
+
+h2 {
+  color: $primary-text-color;
+}
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.title {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: $primary-text-color;
+}
